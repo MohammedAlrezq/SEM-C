@@ -77,6 +77,9 @@ summary(beaujean.result, fit.measures=TRUE)
 # add overall fit indexes typically reported in SEM analysis
 summary(beaujean.result, fit.measures=TRUE, standardized=TRUE, rsq=TRUE)
 
+#std.all is the much of affetc of each variabel on the outcome
+#varainces = 1 - varaince = R-sqr==> 1-0.813 = 0.187
+#define parameter is related to direct and indirect effects and the total 
 ```
 
 ########################################
